@@ -1,0 +1,10 @@
+{
+    "For of loop": {
+        "prefix": "forof",
+        "body": [
+            "for(let ${item} of ${collection}) {",
+            "\t$0",
+            "}"
+        ]
+    }
+}
