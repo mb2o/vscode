@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outDir": "js",
+        "watch": true,
+        "module": "commonjs",
+        "sourceMap": true
+    },
+    "files": [
+        "app.ts"
+    ]
+}
