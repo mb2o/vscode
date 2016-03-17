@@ -1,4 +1,12 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    
+    {
+        "key": "ctrl+f4",
+        "command": "vscode.previewHtml",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+f5",
+        "command": "workbench.action.reloadWindow"
+    }
 ]

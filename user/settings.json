@@ -1,5 +1,6 @@
 {
     "editor.lineHeight": 20,
+    "editor.renderWhitespace": true,
     "explorer.workingFiles.maxVisible": 5,
     "files.eol": "\n",
     "files.autoSave": "afterDelay",
