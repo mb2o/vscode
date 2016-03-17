@@ -75,6 +75,49 @@
         }
     },
 
+    "json.schemas": [
+        {
+            "fileMatch": ["/bower.json", "/.bower.json"],
+            "url": "http://json.schemastore.org/bower"
+        },
+        {
+            "fileMatch": ["/package.json"],
+            "url": "http://json.schemastore.org/package"
+        },
+        {
+            "fileMatch": ["/tsconfig.json"],
+            "url": "http://json.schemastore.org/tsconfig"
+        },
+        {
+            "fileMatch": ["/tslint.json"],
+            "url": "http://json.schemastore.org/tslint"
+        },
+        {
+            "fileMatch": ["/project.json"],
+            "url": "http://json.schemastore.org/project"
+        },
+        {
+            "fileMatch": ["/.bowerrc"],
+            "url": "http://json.schemastore.org/bowerrc"
+        },
+        {
+            "fileMatch": ["/.jscsrc"],
+            "url": "http://json.schemastore.org/jscsrc"
+        },
+        {
+            "fileMatch": ["/.jshintrc"],
+            "url": "http://json.schemastore.org/jshintrc"
+        },
+        {
+            "fileMatch": ["/typings.json"],
+            "url": "http://json.schemastore.org/typings"
+        },
+        {
+            "fileMatch": ["/typingsrc.json"],
+            "url": "http://json.schemastore.org/typingsrc"
+        }
+    ],
+
     "startanyshell.shells": [
         {
 			"description": "ConEmu",
@@ -97,6 +140,6 @@
 			"command": "start \"%description%\" /WAIT \"%HOMEDRIVE%\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\VsDevCmd.bat\""
 		}
 	],
-    
+
     "typescript.useCodeSnippetsOnMethodSuggest": true
 }
