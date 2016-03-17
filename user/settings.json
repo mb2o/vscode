@@ -1,0 +1,89 @@
+{
+    "editor.lineHeight": 20,
+    "explorer.workingFiles.maxVisible": 5,
+    "files.eol": "\n",
+    "files.autoSave": "afterDelay",
+    "files.trimTrailingWhitespace": true,
+    "jshint.options": {
+        "bitwise": true,
+        "camelcase": true,
+        "curly": true,
+        "eqeqeq": true,
+        "es3": false,
+        "forin": true,
+        "freeze": true,
+        "immed": true,
+        "indent": 4,
+        "newcap": true,
+        "noarg": true,
+        "noempty": true,
+        "nonbsp": true,
+        "nonew": true,
+        "plusplus": false,
+        //"quotmark": "single",
+        "undef": true,
+        "unused": false,
+        "strict": false,
+        "maxparams": 10,
+        "maxdepth": 5,
+        "maxstatements": 40,
+        "maxcomplexity": 8,
+        "maxlen": 120,
+
+        "asi": false,
+        "boss": false,
+        "debug": false,
+        "eqnull": true,
+        "esnext": false,
+        "evil": false,
+        "expr": false,
+        "funcscope": false,
+        "globalstrict": false,
+        "iterator": false,
+        "lastsemic": false,
+        "laxbreak": false,
+        "laxcomma": false,
+        "loopfunc": true,
+        "maxerr": 50,
+        "moz": false,
+        "multistr": false,
+        "notypeof": false,
+        "proto": false,
+        "scripturl": false,
+        "shadow": false,
+        "sub": true,
+        "supernew": false,
+        "validthis": false,
+        "noyield": false,
+
+        "browser": true,
+        "node": true,
+
+        "globals": {
+            "angular": false,
+            "$": false
+        }
+    },
+    "startanyshell.shells": [
+        {
+			"description": "ConEmu",
+			"command": "start \"%description%\" /WAIT \"D:\\Dropbox\\Apps\\Conemu\\ConEmu64.exe"
+		},
+		{
+			"description": "Windows Command Prompt",
+			"command": "start \"%description%\" /WAIT %comspec%"
+		},
+		{
+			"description": "Git Bash 2",
+			"command": "start \"%description%\" %comspec% /C \"%HOMEDRIVE%\\Program Files\\Git\\git-cmd.exe\" --no-cd --command=usr/bin/bash.exe -l -i"
+		},
+		{
+			"description": "Windows Powershell",
+			"command": "start \"%description%\" powershell.exe -noexit"
+		},
+		{
+			"description": "Developer Command Prompt for VS2015",
+			"command": "start \"%description%\" /WAIT \"%HOMEDRIVE%\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\VsDevCmd.bat\""
+		}
+	]
+}
