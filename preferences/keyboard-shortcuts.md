@@ -16,6 +16,10 @@
     </thead>
     <tbody>
         <tr>
+            <td>CTRL+SHIFT+C</td>
+            <td>Open native command prompt</td>
+        </tr>
+        <tr>
             <td>CTRL+W</td>
             <td>Close current window</td>
         </tr>
@@ -144,6 +148,10 @@
         <tr>
             <td>CTRL+T</td>
             <td>Jump to symbol across files</td>
+        </tr>
+        <tr>
+            <td>CTRL+0</td>
+            <td>Focus side bar</td>
         </tr>
         <tr>
             <td>CTRL+1</td>

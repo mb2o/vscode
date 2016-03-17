@@ -5,18 +5,25 @@
             true,
             "check-space"
         ],
-        "indent": [
-            true,
-            "spaces"
-        ],
+        "eofline": false,
+        "indent": [ true, 4 ],
+        "interface-name": true,
         "no-duplicate-variable": true,
+        "no-empty": true,
         "no-eval": true,
         "no-internal-module": true,
+        "no-trailing-comma": true,
         "no-trailing-whitespace": true,
+        "no-unused-expression": true,
+        "no-unused-variable": true,
+        "no-unreachable": true,
+        "no-use-before-declare": true,
         "no-var-keyword": true,
         "one-line": [
             true,
             "check-open-brace",
+            "check-catch",
+            "check-else",
             "check-whitespace"
         ],
         "quotemark": [
@@ -31,6 +38,11 @@
             true,
             "allow-null-check"
         ],
+        "typedef": [
+            true,
+            "call-signature",
+            "property-declaration"
+        ],
         "typedef-whitespace": [
             true,
             {
@@ -40,6 +52,10 @@
                 "property-declaration": "nospace",
                 "variable-declaration": "nospace"
             }
+        ],
+        "use-strict": [
+            true,
+            "check-module"
         ],
         "variable-name": [
             true,

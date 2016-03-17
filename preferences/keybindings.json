@@ -7,5 +7,9 @@
     {
         "key": "alt+f5",
         "command": "workbench.action.reloadWindow"
+    },
+    {
+        "key": "ctrl+shift+x",
+        "command": "workbench.action.tasks.terminate"
     }
 ]
