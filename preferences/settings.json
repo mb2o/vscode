@@ -1,10 +1,19 @@
 {
+    "editor.formatOnType": true,
     "editor.lineHeight": 20,
-    "editor.renderWhitespace": true,
+    "editor.wrappingColumn": 120,
+
     "explorer.workingFiles.maxVisible": 5,
+
     "files.eol": "\n",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/*.js": {"when": "$(basename).ts"} // hides js files when ts files exist
+    },
     "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,
+
     "jshint.options": {
         "bitwise": true,
         "camelcase": true,
@@ -65,6 +74,7 @@
             "$": false
         }
     },
+
     "startanyshell.shells": [
         {
 			"description": "ConEmu",
@@ -86,5 +96,7 @@
 			"description": "Developer Command Prompt for VS2015",
 			"command": "start \"%description%\" /WAIT \"%HOMEDRIVE%\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\VsDevCmd.bat\""
 		}
-	]
+	],
+    
+    "typescript.useCodeSnippetsOnMethodSuggest": true
 }
