@@ -20,6 +20,10 @@
             <td>Open native command prompt</td>
         </tr>
         <tr>
+            <td>CTRL+SHIFT+,</td>
+            <td>Context-sensitive option navigation</td>
+        </tr>
+        <tr>
             <td>CTRL+W</td>
             <td>Close current window</td>
         </tr>
