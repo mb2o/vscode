@@ -24,6 +24,10 @@
             <td>Context-sensitive option navigation</td>
         </tr>
         <tr>
+            <td>CTRL+SHIFT+V</td>
+            <td>Toggle preview</td>
+        </tr>
+        <tr>
             <td>CTRL+W</td>
             <td>Close current window</td>
         </tr>

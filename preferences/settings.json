@@ -30,7 +30,7 @@
         "nonbsp": true,
         "nonew": true,
         "plusplus": false,
-        //"quotmark": "single",
+        "quotmark": "double",
         "undef": true,
         "unused": false,
         "strict": false,
@@ -75,48 +75,48 @@
         }
     },
 
-    "json.schemas": [
-        {
-            "fileMatch": ["/bower.json", "/.bower.json"],
-            "url": "http://json.schemastore.org/bower"
-        },
-        {
-            "fileMatch": ["/package.json"],
-            "url": "http://json.schemastore.org/package"
-        },
-        {
-            "fileMatch": ["/tsconfig.json"],
-            "url": "http://json.schemastore.org/tsconfig"
-        },
-        {
-            "fileMatch": ["/tslint.json"],
-            "url": "http://json.schemastore.org/tslint"
-        },
-        {
-            "fileMatch": ["/project.json"],
-            "url": "http://json.schemastore.org/project"
-        },
-        {
-            "fileMatch": ["/.bowerrc"],
-            "url": "http://json.schemastore.org/bowerrc"
-        },
-        {
-            "fileMatch": ["/.jscsrc"],
-            "url": "http://json.schemastore.org/jscsrc"
-        },
-        {
-            "fileMatch": ["/.jshintrc"],
-            "url": "http://json.schemastore.org/jshintrc"
-        },
-        {
-            "fileMatch": ["/typings.json"],
-            "url": "http://json.schemastore.org/typings"
-        },
-        {
-            "fileMatch": ["/typingsrc.json"],
-            "url": "http://json.schemastore.org/typingsrc"
-        }
-    ],
+    // "json.schemas": [
+    //     {
+    //         "fileMatch": ["/bower.json", "/.bower.json"],
+    //         "url": "http://json.schemastore.org/bower"
+    //     },
+    //     {
+    //         "fileMatch": ["/package.json"],
+    //         "url": "http://json.schemastore.org/package"
+    //     },
+    //     {
+    //         "fileMatch": ["/tsconfig.json"],
+    //         "url": "http://json.schemastore.org/tsconfig"
+    //     },
+    //     {
+    //         "fileMatch": ["/tslint.json"],
+    //         "url": "http://json.schemastore.org/tslint"
+    //     },
+    //     {
+    //         "fileMatch": ["/project.json"],
+    //         "url": "http://json.schemastore.org/project"
+    //     },
+    //     {
+    //         "fileMatch": ["/.bowerrc"],
+    //         "url": "http://json.schemastore.org/bowerrc"
+    //     },
+    //     {
+    //         "fileMatch": ["/.jscsrc"],
+    //         "url": "http://json.schemastore.org/jscsrc"
+    //     },
+    //     {
+    //         "fileMatch": ["/.jshintrc"],
+    //         "url": "http://json.schemastore.org/jshintrc"
+    //     },
+    //     {
+    //         "fileMatch": ["/typings.json"],
+    //         "url": "http://json.schemastore.org/typings"
+    //     },
+    //     {
+    //         "fileMatch": ["/typingsrc.json"],
+    //         "url": "http://json.schemastore.org/typingsrc"
+    //     }
+    // ],
 
     "startanyshell.shells": [
         {
