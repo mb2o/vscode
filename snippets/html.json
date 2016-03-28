@@ -1,4 +1,26 @@
 {
+    "HTML5 Material Design Lite start page": {
+        "prefix": "html5mdl",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html>",
+            "<head>",
+            "\t<meta charset=\"utf-8\">",
+            "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "\t<title>${title}</title>",
+            "\t<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/icon?family=Material+Icons\">",
+            "\t<link rel=\"stylesheet\" href=\"https://code.getmdl.io/1.1.3/material.deep_purple-red.min.css\" />",
+            "\t<!--[if lt IE 9]>",
+            "\t\t<script src=\"http://html5shim.googlecode.com/svn/trunk/html5.js\"></script>",
+            "\t<![endif]-->",
+            "\t<script defer src=\"https://code.getmdl.io/1.1.3/material.min.js\"></script>",
+            "</head>",
+            "<body>",
+            "\t$0",
+            "</body>",
+            "</html>"
+        ]
+    },
     "HTML5 start page": {
         "prefix": "html5",
         "body": [

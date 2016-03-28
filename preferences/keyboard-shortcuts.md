@@ -81,6 +81,10 @@
             <td>Toggle full screen</td>
         </tr>
         <tr>
+            <td>CTRL+CLICK</td>
+            <td>Open the selected file in a new editor window</td>
+        </tr>
+        <tr>
             <td>CTRL+\</td>
             <td>Split editor</td>
         </tr>

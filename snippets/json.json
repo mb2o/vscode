@@ -1,0 +1,13 @@
+{
+    "Exclude Files from Workspace": {
+        "prefix": "exclude",
+        "body": [
+            "\"files.exclude\": {",
+            "\t\"node_modules\": true,",
+            "\t\"**/app/**/*.js.map\": true,",
+            "\t\"**/app/**/*.js\": true",
+            "}"
+        ],
+        "description": "Excludes files and folders from the Workspace"
+    }
+}

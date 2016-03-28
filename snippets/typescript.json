@@ -2,8 +2,8 @@
     "For of loop": {
         "prefix": "forof",
         "body": [
-            "for(let ${item} of ${collection}) {",
-            "\t$0",
+            "for(let ${localVar} of ${collection}) {",
+            "\t${1}",
             "}"
         ]
     }
